@@ -33,6 +33,10 @@ body {
   width: 5rem;
 }
 
+.header .dropdown-menu {
+  border: none;
+}
+
 .header .dropdown-item {
   font-size: 1.6rem;
   background: -webkit-gradient(linear, left top, right top, from(#1c3643), color-stop(25%, #273b47), to(#1e5372));
@@ -42,6 +46,33 @@ body {
 .header a.dropdown-item:hover {
   color: #0056b3;
   text-decoration: underline;
+}
+
+/************************** MAIN - CAROUSEL **************************************/
+.main .carousel-inner img {
+  height: 70vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: grayscale(70%);
+          filter: grayscale(70%);
+}
+
+.main .carousel-inner .descripcion {
+  font-size: 1.6rem;
+}
+
+#carousel {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
 }
 
 /************************** FOOTER ***********************************************/
