@@ -1,0 +1,37 @@
+/************************** DECLARACION VARIABLES SASS ***************************/
+$colorText: #fff;
+$colorHover: #0056b3;
+$sizeText: 1.6rem;
+$sizeTextFooter: 1.4rem;
+
+
+/************************** HEADER ***********************************************/
+.header{
+    font-size: $sizeText;
+    background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+
+        a{
+        color: $colorText;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+    
+    .header__img--logo{
+        width: 5rem;
+    }
+    .dropdown-menu{
+        border: none;
+    }
+    .dropdown-item{
+        font-size: $sizeText;
+        background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+    }
+
+    a.dropdown-item:hover{
+        color:$colorHover;
+        text-decoration: underline;
+    }
+  
+}

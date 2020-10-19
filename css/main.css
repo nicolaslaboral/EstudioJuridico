@@ -15,39 +15,37 @@ body {
 }
 
 /************************** HEADER ***********************************************/
-.header {
-  font-size: 1.6rem;
-  background: -webkit-gradient(linear, left top, right top, from(#1c3643), color-stop(25%, #273b47), to(#1e5372));
-  background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
-}
+/*
+.header{
+    font-size: $sizeText;
+    background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
 
-.header a {
-  color: #fff;
-}
+        a{
+        color: $colorText;
+    }
 
-.header a:hover {
-  text-decoration: underline;
-}
+    a:hover{
+        text-decoration: underline;
+    }
+    
+    .header__img--logo{
+        width: 5rem;
+    }
+    .dropdown-menu{
+        border: none;
+    }
+    .dropdown-item{
+        font-size: $sizeText;
+        background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+    }
 
-.header .header__img--logo {
-  width: 5rem;
+    a.dropdown-item:hover{
+        color:$colorHover;
+        text-decoration: underline;
+    }
+  
 }
-
-.header .dropdown-menu {
-  border: none;
-}
-
-.header .dropdown-item {
-  font-size: 1.6rem;
-  background: -webkit-gradient(linear, left top, right top, from(#1c3643), color-stop(25%, #273b47), to(#1e5372));
-  background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
-}
-
-.header a.dropdown-item:hover {
-  color: #0056b3;
-  text-decoration: underline;
-}
-
+*/
 /************************** MAIN - CAROUSEL **************************************/
 .main .carousel-inner img {
   height: 70vh;
@@ -75,37 +73,37 @@ body {
   color: #fff;
 }
 
+/* 
+
 /************************** FOOTER ***********************************************/
+/*
 .footer {
-  background: -webkit-gradient(linear, left top, right top, from(#1c3643), color-stop(25%, #273b47), to(#1e5372));
-  background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
-  font-size: 1.6rem;
-  /* a {
+    background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+    font-size: $sizeText;
+
+    a:focus, a:active{
+        color:#23527c;
+    }
+
+    a:active, a:hover{
+        outline: 0;
+    }
+
+    .footer__a--url{
+        text-decoration: none;
+    }
+
+    h2{
         color: $colorText;
-    } */
-}
+    }
 
-.footer a:focus, .footer a:active {
-  color: #23527c;
-}
+    .footer__img--logo{
+        width: 3rem;
+    }
 
-.footer a:active, .footer a:hover {
-  outline: 0;
-}
-
-.footer .footer__a--url {
-  text-decoration: none;
-}
-
-.footer h2 {
-  color: #fff;
-}
-
-.footer .footer__img--logo {
-  width: 3rem;
-}
-
-.footer span {
-  color: #7e7d7d;
-}
+    span{
+        color: #7e7d7d;
+    };
+  } 
+ */
 /*# sourceMappingURL=main.css.map */

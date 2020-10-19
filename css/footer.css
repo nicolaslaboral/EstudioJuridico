@@ -1,0 +1,35 @@
+/************************** DECLARACION VARIABLES SASS ***************************/
+/************************** FOOTER ***********************************************/
+.footer {
+  background: -webkit-gradient(linear, left top, right top, from(#1c3643), color-stop(25%, #273b47), to(#1e5372));
+  background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
+  font-size: 1.6rem;
+  /* a {
+        color: $colorText;
+    } */
+}
+
+.footer a:focus, .footer a:active {
+  color: #23527c;
+}
+
+.footer a:active, .footer a:hover {
+  outline: 0;
+}
+
+.footer .footer__a--url {
+  text-decoration: none;
+}
+
+.footer h2 {
+  color: #fff;
+}
+
+.footer .footer__img--logo {
+  width: 3rem;
+}
+
+.footer span {
+  color: #7e7d7d;
+}
+/*# sourceMappingURL=footer.css.map */

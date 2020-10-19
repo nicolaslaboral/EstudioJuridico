@@ -1,0 +1,35 @@
+/************************** DECLARACION VARIABLES SASS ***************************/
+/************************** HEADER ***********************************************/
+.header {
+  font-size: 1.6rem;
+  background: -webkit-gradient(linear, left top, right top, from(#1c3643), color-stop(25%, #273b47), to(#1e5372));
+  background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
+}
+
+.header a {
+  color: #fff;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+.header .header__img--logo {
+  width: 5rem;
+}
+
+.header .dropdown-menu {
+  border: none;
+}
+
+.header .dropdown-item {
+  font-size: 1.6rem;
+  background: -webkit-gradient(linear, left top, right top, from(#1c3643), color-stop(25%, #273b47), to(#1e5372));
+  background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
+}
+
+.header a.dropdown-item:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=header.css.map */

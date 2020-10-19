@@ -1,0 +1,39 @@
+/************************** DECLARACION VARIABLES SASS ***************************/
+$colorText: #fff;
+$colorHover: #0056b3;
+$sizeText: 1.6rem;
+$sizeTextFooter: 1.4rem;
+
+/************************** FOOTER ***********************************************/
+.footer {
+    background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+    font-size: $sizeText;
+    /* a {
+        color: $colorText;
+    } */
+    a:focus, a:active{
+        color:#23527c;
+    }
+
+    a:active, a:hover{
+        outline: 0;
+    }
+
+    .footer__a--url{
+        text-decoration: none;
+    }
+
+    h2{
+        color: $colorText;
+    }
+
+    .footer__img--logo{
+        width: 3rem;
+    }
+
+    span{
+        color: #7e7d7d;
+    };
+  }
+  
+

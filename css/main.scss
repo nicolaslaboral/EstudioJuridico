@@ -18,6 +18,7 @@ body{
 }
 
 /************************** HEADER ***********************************************/
+/*
 .header{
     font-size: $sizeText;
     background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
@@ -47,7 +48,7 @@ body{
     }
   
 }
-
+*/
 
 /************************** MAIN - CAROUSEL **************************************/
 .main .carousel-inner img{
@@ -72,15 +73,14 @@ body{
     background-color: rgba(0,0,0,0.5);
     color: $colorText;
 }
-
+/* 
 
 /************************** FOOTER ***********************************************/
+/*
 .footer {
     background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
     font-size: $sizeText;
-    /* a {
-        color: $colorText;
-    } */
+
     a:focus, a:active{
         color:#23527c;
     }
@@ -104,6 +104,5 @@ body{
     span{
         color: #7e7d7d;
     };
-  }
-  
-
+  } 
+ */
