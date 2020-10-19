@@ -6,7 +6,7 @@
     <meta name="robots" content="index, follow">
     <meta name="description" content="Estudio Jurídico Llorente y Asociados">
     <title>Estudio Jurídico</title>
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/contacto.css">
     <link rel="shortcut icon" href="./img/favicon.png" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
     <!-- Bootstrap CSS -->
@@ -14,55 +14,81 @@
 </head>
 <body>
 
-<!----------------------- FORM -------------------------->
-<form class="needs-validation" novalidate>
-    <div class="form-row">
-      <div class="col-10 col-md-5 mb-3 ml-3 mr-3">
-        <label for="validationCustom01">Nombre y Apellido *</label>
-        <input type="text" class="form-control" id="validationCustom01" placeholder="Ingrese su nombre completo" required>
-        <div class="valid-feedback">
-          Looks good!
-        </div>
-        <div class="invalid-feedback">
-            Por favor, ingrese su nombre.
+<!--------------------------------- FORM ---------------------------->
+<div class="container">
+  <div class="row aling-items-center">
+    <!------------------------ FORMULARIO --------------------------->
+    <div class="col-12 col-md-6">
+      <div class="container">    
+        <form class="formulario-contacto needs-validation" novalidate>
+          <div class="form-row">
+            <div class="col-12 col-md-10 mb-3">
+              <label for="validationCustom01">Nombre y Apellido *</label>
+              <input type="text" class="form-control" id="validationCustom01" placeholder="Ingrese su nombre completo" required>
+              <div class="invalid-feedback">
+                  Por favor, ingrese su nombre.
+              </div>
+            </div>
           </div>
+
+          <div class="form-row">
+            <div class="col-12 col-md-10 mb-3">
+              <label for="validationCustom02">Teléfono</label>
+              <input type="text" class="form-control" id="validationCustom02" placeholder="Ingrese su teléfono"required>
+            </div>
+          </div>
+        
+          <div class="form-row">
+            <div class="col-12 col-md-10 mb-3">
+              <label for="validationCustom03">Email *</label>
+              <input type="text" class="form-control" id="validationCustom03" placeholder="Ingrese su Email" required>
+              <div class="invalid-feedback">
+                  Por favor, ingrese su email.
+              </div>
+            </div>
+          </div>
+
+          <div class="form-row">
+              <div class="col-12 col-md-10 mb-3">
+                  <label for="validationCustom04">Consulta *</label>
+                  <textarea class="form-control" id="validationTextarea" placeholder="Consulta / Solicitud de entrevista" required></textarea>
+                  <div class="invalid-feedback">
+                    Por favor, ingrese la consulta.
+                  </div>
+              </div>
+          </div>
+
+          <div class="form-row">
+              <div class="col-12 col-md-10 mb-3  ">
+                  <button class="btn btn-primary btn-block" type="submit">ENVIAR</button>
+              </div>
+          </div> 
+
+        </form>
       </div>
     </div>
 
-    <div class="form-row">
-      <div class="col-10 col-md-5 mb-3 ml-3 mr-3">
-        <label for="validationCustom02">Teléfono</label>
-        <input type="text" class="form-control" id="validationCustom02" placeholder="Ingrese su teléfono"required>
-      </div>
-    </div>
-  
-    <div class="form-row">
-      <div class="col-10 col-md-5 mb-3 ml-3 mr-3">
-        <label for="validationCustom03">Email *</label>
-        <input type="text" class="form-control" id="validationCustom03" placeholder="Ingrese su Email" required>
-        <div class="valid-feedback">
-          Looks good!
-        </div>
-        <div class="invalid-feedback">
-            Por favor, ingrese su email.
+    <!----------------------- DATOS DE CONTACTO --------------------------->
+    <div class="col-12 col-md-6">
+      <div class="row text-center">
+        
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
           </div>
+        </div>
+
       </div>
     </div>
-    <div class="form-row">
-        <div class="col-10 col-md-5 mb-3 ml-3 mr-3">
-            <label for="validationTextarea">Consulta *</label>
-            <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Consulta / Solicitud de entrevista" required></textarea>
-            <div class="invalid-feedback">
-            Por favor, ingrese la consulta.
-            </div>
-        </div>
-    </div>
-    <div class="form-row">
-        <div class="col-10 col-md-5 mb-3 ml-3 mr-3">
-            <button class="btn btn-primary btn-block" type="submit">ENVIAR</button>
-        </div>
-    </div>
-  </form>
+
+  </div>
+</div>
+
+
   
   <script>
   // Example starter JavaScript for disabling form submissions if there are invalid fields
