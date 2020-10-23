@@ -75,6 +75,14 @@ body {
 
 .quienes-somos {
   background-color: #f8f9fa;
+  font-size: 1.6rem;
+}
+
+.quienes-somos .desplegable button {
+  width: 8rem;
+  height: 3rem;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 /* 

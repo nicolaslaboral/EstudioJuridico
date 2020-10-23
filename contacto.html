@@ -63,11 +63,11 @@
     <!------------------------ FORMULARIO --------------------------->
     <div class="col-12 col-md-6">
       <div class="container">    
-        <form class="formulario-contacto needs-validation" novalidate>
+        <form class="formulario-contacto needs-validation" action="enviar.php" method="post" novalidate>
           <div class="form-row">
             <div class="col-12 col-md-10 mb-3">
               <label for="validationCustom01">Nombre y Apellido *</label>
-              <input type="text" class="form-control" id="validationCustom01" placeholder="Ingrese su nombre completo" required>
+              <input type="text" class="form-control" id="validationCustom01" name="nombre" placeholder="Ingrese su nombre completo" required>
               <div class="invalid-feedback">
                   Por favor, ingrese su nombre.
               </div>
@@ -77,14 +77,14 @@
           <div class="form-row">
             <div class="col-12 col-md-10 mb-3">
               <label for="validationCustom02">Teléfono</label>
-              <input type="tel" class="form-control" id="validationCustom02" placeholder="Ingrese su teléfono"required>
+              <input type="tel" class="form-control" id="validationCustom02" name="telefono" placeholder="Ingrese su teléfono"required>
             </div>
           </div>
         
           <div class="form-row">
             <div class="col-12 col-md-10 mb-3">
               <label for="validationCustom03">Email *</label>
-              <input type="email" class="form-control" id="validationCustom03" placeholder="Ingrese su Email" required>
+              <input type="email" class="form-control" id="validationCustom03" name="correo" placeholder="Ingrese su Email" required>
               <div class="invalid-feedback">
                   Por favor, ingrese su email.
               </div>
@@ -94,7 +94,7 @@
           <div class="form-row">
               <div class="col-12 col-md-10 mb-3">
                   <label for="validationCustom04">Consulta *</label>
-                  <textarea class="form-control" id="validationTextarea" placeholder="Consulta / Solicitud de entrevista" required></textarea>
+                  <textarea class="form-control" id="validationTextarea" name="mensaje" placeholder="Consulta / Solicitud de entrevista" required></textarea>
                   <div class="invalid-feedback">
                     Por favor, ingrese la consulta.
                   </div>
