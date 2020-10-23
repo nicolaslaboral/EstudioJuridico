@@ -17,7 +17,9 @@ body{
     min-width: 32rem;
 }
 
-
+.fondo{
+    background-color: #f8f9fa;
+}
 
 .formulario-contacto label{
     font-size: $sizeText;
@@ -37,4 +39,21 @@ body{
 
 .form-row .btn{
     font-size: $sizeText;
+}
+
+/* .card{
+    height: 70vh;
+} */
+.card span{
+    font-size: $sizeText;
+}
+ .card-img-top{
+    object-fit: cover;
+    height: 200px; 
+} 
+
+.vertical-horizontal-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
