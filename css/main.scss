@@ -1,5 +1,6 @@
 /************************** DECLARACION VARIABLES SASS ***************************/
 $colorText: #fff;
+$colorBackground: #f8f9fa;
 $colorHover: #0056b3;
 $sizeText: 1.6rem;
 $sizeTextFooter: 1.4rem;
@@ -74,8 +75,9 @@ body{
     color: $colorText;
 }
 
+/************************** QUIENES SOMOS ***********************************************/
 .quienes-somos{
-    background-color: #f8f9fa;
+    background-color: $colorBackground;
     font-size: $sizeText;
 
     .desplegable button{
@@ -83,6 +85,23 @@ body{
         height: 3rem;
         box-shadow: none;
     }
+}
+
+
+/************************** AREAS PRACTICAS ***********************************************/
+.container .areas{
+    background-color: $colorBackground;
+    flex-wrap: nowrap;
+
+}
+
+.container__areas--img{
+    height: 25rem;
+    object-fit: cover;
+}
+
+.container__areas--p{
+    font-size: $sizeText;
 }
 /* 
 

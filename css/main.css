@@ -73,6 +73,7 @@ body {
   color: #fff;
 }
 
+/************************** QUIENES SOMOS ***********************************************/
 .quienes-somos {
   background-color: #f8f9fa;
   font-size: 1.6rem;
@@ -83,6 +84,23 @@ body {
   height: 3rem;
   -webkit-box-shadow: none;
           box-shadow: none;
+}
+
+/************************** AREAS PRACTICAS ***********************************************/
+.container .areas {
+  background-color: #f8f9fa;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.container__areas--img {
+  height: 25rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container__areas--p {
+  font-size: 1.6rem;
 }
 
 /* 
