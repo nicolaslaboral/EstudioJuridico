@@ -12,40 +12,9 @@ body {
   font-size: 1.6rem;
   font-family: 'Roboto', sans-serif;
   min-width: 32rem;
+  background-color: #f8f9fa;
 }
 
-/************************** HEADER ***********************************************/
-/*
-.header{
-    font-size: $sizeText;
-    background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
-
-        a{
-        color: $colorText;
-    }
-
-    a:hover{
-        text-decoration: underline;
-    }
-    
-    .header__img--logo{
-        width: 5rem;
-    }
-    .dropdown-menu{
-        border: none;
-    }
-    .dropdown-item{
-        font-size: $sizeText;
-        background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
-    }
-
-    a.dropdown-item:hover{
-        color:$colorHover;
-        text-decoration: underline;
-    }
-  
-}
-*/
 /************************** MAIN - CAROUSEL **************************************/
 .main .carousel-inner img {
   height: 70vh;
@@ -79,6 +48,11 @@ body {
   font-size: 1.6rem;
 }
 
+.quienes-somos .parrafo, .quienes-somos .card {
+  background-color: #f8f9fa;
+  font-size: 1.6rem;
+}
+
 .quienes-somos .desplegable button {
   width: 8rem;
   height: 3rem;
@@ -87,53 +61,17 @@ body {
 }
 
 /************************** AREAS PRACTICAS ***********************************************/
-.container .areas {
+.areas {
   background-color: #f8f9fa;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
 }
 
-.container__areas--img {
-  height: 25rem;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
+/* .container__areas--img{
+    height: 25rem;
+    object-fit: cover;
+} */
 .container__areas--p {
   font-size: 1.6rem;
 }
-
-/* 
-
-/************************** FOOTER ***********************************************/
-/*
-.footer {
-    background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
-    font-size: $sizeText;
-
-    a:focus, a:active{
-        color:#23527c;
-    }
-
-    a:active, a:hover{
-        outline: 0;
-    }
-
-    .footer__a--url{
-        text-decoration: none;
-    }
-
-    h2{
-        color: $colorText;
-    }
-
-    .footer__img--logo{
-        width: 3rem;
-    }
-
-    span{
-        color: #7e7d7d;
-    };
-  } 
- */
 /*# sourceMappingURL=main.css.map */

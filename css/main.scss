@@ -8,7 +8,9 @@ $sizeTextFooter: 1.4rem;
 /************************** BASE *************************************************/
 html{
     font-size: 62.5%;
+    
 }
+
 body{
     box-sizing: border-box; 
     margin: 0;
@@ -16,40 +18,8 @@ body{
     font-size: $sizeText;
     font-family: 'Roboto', sans-serif;
     min-width: 32rem;
+    background-color: $colorBackground;
 }
-
-/************************** HEADER ***********************************************/
-/*
-.header{
-    font-size: $sizeText;
-    background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
-
-        a{
-        color: $colorText;
-    }
-
-    a:hover{
-        text-decoration: underline;
-    }
-    
-    .header__img--logo{
-        width: 5rem;
-    }
-    .dropdown-menu{
-        border: none;
-    }
-    .dropdown-item{
-        font-size: $sizeText;
-        background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
-    }
-
-    a.dropdown-item:hover{
-        color:$colorHover;
-        text-decoration: underline;
-    }
-  
-}
-*/
 
 /************************** MAIN - CAROUSEL **************************************/
 .main .carousel-inner img{
@@ -76,63 +46,33 @@ body{
 }
 
 /************************** QUIENES SOMOS ***********************************************/
-.quienes-somos{
+ .quienes-somos{
     background-color: $colorBackground;
     font-size: $sizeText;
+
+    .parrafo, .card{
+        background-color: $colorBackground;
+        font-size: $sizeText;
+    }
 
     .desplegable button{
         width: 8rem;
         height: 3rem;
         box-shadow: none;
     }
-}
-
+} 
 
 /************************** AREAS PRACTICAS ***********************************************/
-.container .areas{
+.areas{
     background-color: $colorBackground;
     flex-wrap: nowrap;
-
 }
 
-.container__areas--img{
+/* .container__areas--img{
     height: 25rem;
     object-fit: cover;
-}
+} */
 
 .container__areas--p{
     font-size: $sizeText;
 }
-/* 
-
-/************************** FOOTER ***********************************************/
-/*
-.footer {
-    background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
-    font-size: $sizeText;
-
-    a:focus, a:active{
-        color:#23527c;
-    }
-
-    a:active, a:hover{
-        outline: 0;
-    }
-
-    .footer__a--url{
-        text-decoration: none;
-    }
-
-    h2{
-        color: $colorText;
-    }
-
-    .footer__img--logo{
-        width: 3rem;
-    }
-
-    span{
-        color: #7e7d7d;
-    };
-  } 
- */
