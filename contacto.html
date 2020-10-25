@@ -63,11 +63,11 @@
     <!------------------------ FORMULARIO --------------------------->
     <div class="col-12 col-md-6">
       <div class="container">    
-        <form class="formulario-contacto needs-validation" action="enviar.php" method="post" novalidate>
+        <form class="formulario-contacto needs-validation" action="https://formspree.io/f/mvovanza"  method="post" novalidate>
           <div class="form-row">
             <div class="col-12 col-md-10 mb-3">
               <label for="validationCustom01">Nombre y Apellido *</label>
-              <input type="text" class="form-control" id="validationCustom01" name="nombre" placeholder="Ingrese su nombre completo" required>
+              <input type="text" class="form-control" id="validationCustom01" name="name" placeholder="Ingrese su nombre completo" required>
               <div class="invalid-feedback">
                   Por favor, ingrese su nombre.
               </div>
@@ -77,14 +77,14 @@
           <div class="form-row">
             <div class="col-12 col-md-10 mb-3">
               <label for="validationCustom02">Teléfono</label>
-              <input type="tel" class="form-control" id="validationCustom02" name="telefono" placeholder="Ingrese su teléfono"required>
+              <input type="tel" class="form-control" id="validationCustom02" name="telephone" placeholder="Ingrese su teléfono"required>
             </div>
           </div>
         
           <div class="form-row">
             <div class="col-12 col-md-10 mb-3">
               <label for="validationCustom03">Email *</label>
-              <input type="email" class="form-control" id="validationCustom03" name="correo" placeholder="Ingrese su Email" required>
+              <input type="email" class="form-control" id="validationCustom03" name="_replyto" placeholder="Ingrese su Email" required>
               <div class="invalid-feedback">
                   Por favor, ingrese su email.
               </div>
@@ -94,16 +94,20 @@
           <div class="form-row">
               <div class="col-12 col-md-10 mb-3">
                   <label for="validationCustom04">Consulta *</label>
-                  <textarea class="form-control" id="validationTextarea" name="mensaje" placeholder="Consulta / Solicitud de entrevista" required></textarea>
+                  <textarea class="form-control" id="validationTextarea" name="message" placeholder="Consulta / Solicitud de entrevista" required></textarea>
                   <div class="invalid-feedback">
                     Por favor, ingrese la consulta.
                   </div>
               </div>
           </div>
-
+          <input type="hidden" name="_subject" id="email-subject" value="Contacto desde su sitio Web">
           <div class="form-row">
               <div class="col-12 col-md-10 mb-3  ">
-                  <button class="btn btn-primary btn-block" type="submit">ENVIAR</button>
+                  <button class="btn btn-primary btn-block" aria-pressed="true" type="submit">ENVIAR</button>
+              <!--     <div class="loader-container">
+                    <div class="loader"></div>
+                    <div class="loader2"></div>
+                  </div> -->
               </div>
           </div> 
 
@@ -213,6 +217,9 @@
 <!---------------------------------------------- /FOOTER --------------------------------->
 
 
+<!---------------------------------------------- SCRIPTS --------------------------------->
+
+<!-- Validación formulario de contacto -->
   <script>
   // Example starter JavaScript for disabling form submissions if there are invalid fields
   (function() {
@@ -234,11 +241,14 @@
   })();
   </script>  
       
+  
   <!-- Option 2: jQuery, Popper.js, and Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
   
+
+
 
     
 </body>
